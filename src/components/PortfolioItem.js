@@ -17,7 +17,7 @@ export default function PortfolioItem() {
                 {work.subtitle}
               </Card.Subtitle>
               <Card.Text>Directed by: {work.director}</Card.Text>
-              <Card.Text>Analytics: {work.analytics}</Card.Text>
+              <Card.Text>Analytics: {work.analytics} views</Card.Text>
             </Card.Body>
           </div>
         </div>
