@@ -55,6 +55,7 @@ function App() {
             </Routes>
           </Container>
         </main>
+        <footer>Copyright &copy; 2020 Blitz Audio. All rights reserved</footer>
       </div>
     </Router>
   );

@@ -1,7 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 
 export default function About() {
+  let navigate = useNavigate();
+  const goToPortfolio = () => {
+    navigate("/works");
+  };
   return (
     <Container>
       <div className="bg-image"></div>
@@ -20,15 +26,22 @@ export default function About() {
           branded content, short movies, tv), dealing with the sound at 360°,
           from music creation and sound design to the entire process of audio
           post-production, deliverying mix and master for any platform. Some of
-          the brands that have benefited from our expertise over the years: <em><b>Sky,
-          RAI, La7, Vodafone, Wind, Huawei, Playstation, Spotify, Leerdammer,
-          Muller, Disney, Netlflix, Milano Fashion Week, INPS, David di
-          Donatello, Action Aid, Bayer, Caffè Borbone, Carrefour, Kinder,
-          Cattleya, Enel, Ford, Ferrarelle, Golia, ENI, Hasbro, ISTAT,
-          Kerastase, MAC Cosmetics, L'Oreal, Lego, Amaro Montenegro, Pandora,
-          Philadelphia, MD, Fanpage, Vidal, Tavernello, Pringles, Wudy,
-          Kellogg's...</b></em>
+          the brands that have benefited from our expertise over the years:{" "}
+          <em>
+            <b>
+              Sky, RAI, La7, Vodafone, Wind, Huawei, Playstation, Spotify,
+              Leerdammer, Muller, Disney, Netlflix, Milano Fashion Week, INPS,
+              David di Donatello, Action Aid, Bayer, Caffè Borbone, Carrefour,
+              Kinder, Cattleya, Enel, Ford, Ferrarelle, Golia, ENI, Hasbro,
+              ISTAT, Kerastase, MAC Cosmetics, L'Oreal, Lego, Amaro Montenegro,
+              Pandora, Philadelphia, MD, Fanpage, Vidal, Tavernello, Pringles,
+              Wudy, Kellogg's...
+            </b>
+          </em>
         </p>
+        <Button variant="outline-light" onClick={goToPortfolio}>
+          GO TO PORTFOLIO
+        </Button>
       </div>
     </Container>
   );
