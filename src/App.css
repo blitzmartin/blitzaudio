@@ -67,11 +67,26 @@
   max-height: 100%;
   min-width: 100%;
   object-fit: cover;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
 .Card {
   box-shadow: 5px 5px 25px black;
+}
+
+.portfolio-container {
+  background:#212529;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-item{
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {

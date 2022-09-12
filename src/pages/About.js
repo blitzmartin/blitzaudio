@@ -14,9 +14,9 @@ export default function About() {
     <Container>
       <div className="bg-image"></div>
       <div className="overlay dark-container">
-        <Container>
-          <Row>
-            <Col>
+        <Container >
+          <Row >
+            <Col> 
               <div className="home-title">
                 <h2>About</h2>
                 <p>
@@ -48,7 +48,7 @@ export default function About() {
                     </b>
                   </em>
                 </p>
-                <Button variant="outline-light" onClick={goToPortfolio}>
+                <Button variant="outline-light" onClick={goToPortfolio} style={{borderRadius: "0"}}>
                   GO TO PORTFOLIO
                 </Button>
               </div>
