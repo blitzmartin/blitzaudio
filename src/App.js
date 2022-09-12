@@ -42,7 +42,7 @@ function App() {
             </Container>
           </Navbar>
         </header>
-        <main className="main-content">
+        <main>
           <Container className="mt-3">
             <Routes>
               <Route path="/" element={<Home />} />
