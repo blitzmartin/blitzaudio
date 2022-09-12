@@ -31,12 +31,12 @@ function App() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="/about">About</Nav.Link>
-                  <Nav.Link href="/services">Services</Nav.Link>
-                  <Nav.Link href="/works">Works</Nav.Link>
-                  <Nav.Link href="/pictures">Pictures</Nav.Link>
-                  <Nav.Link href="/artist">Artist</Nav.Link>
-                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href="/about">ABOUT</Nav.Link>
+                  <Nav.Link href="/services">SERVICES</Nav.Link>
+                  <Nav.Link href="/works">WORKS</Nav.Link>
+                  <Nav.Link href="/pictures">PICTURES</Nav.Link>
+                  <Nav.Link href="/artist">ARTIST</Nav.Link>
+                  <Nav.Link href="/contact">CONTACT</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>

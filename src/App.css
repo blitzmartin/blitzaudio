@@ -51,12 +51,23 @@
 }
 
 .dark-container {
-  text-align: justify;
   background: linear-gradient(90deg, rgba(33,37,41,1) 0%, rgba(24,24,82,1) 63%, rgba(25,14,38,1) 100%);
   padding: 2.5rem;
   margin: 3rem auto;
-  width: 70vw;
+  width: 90vw;
   box-shadow: 5px 5px 25px black;
+}
+
+.home-title {
+  text-align: justify;
+}
+
+.home-img{
+  width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  border: 3px solid white;
 }
 
 .Card {
