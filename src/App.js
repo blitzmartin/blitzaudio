@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Artist from "./pages/Artist";
@@ -35,7 +34,7 @@ function App() {
                   <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/services">Services</Nav.Link>
                   <Nav.Link href="/works">Works</Nav.Link>
-                  <Nav.Link href="/spictures">Pictures</Nav.Link>
+                  <Nav.Link href="/pictures">Pictures</Nav.Link>
                   <Nav.Link href="/artist">Artist</Nav.Link>
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
@@ -43,7 +42,7 @@ function App() {
             </Container>
           </Navbar>
         </header>
-        <main>
+        <main className="main-content">
           <Container className="mt-3">
             <Routes>
               <Route path="/" element={<Home />} />

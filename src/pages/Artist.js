@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function Artist(){
-    return(
-        <div>
-            <h1>Artist</h1>
-        </div>
-    )
+export default function Artist() {
+  return (
+    <div className="center-align">
+      <h1>Artist</h1>
+    </div>
+  );
 }
