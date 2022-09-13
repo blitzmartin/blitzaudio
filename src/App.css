@@ -123,3 +123,69 @@ footer {
   margin: 1.2rem auto;
 }
 
+
+
+/******** CONTACT ********/
+.contact {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  ;
+  padding: 1.2rem 2rem 2rem 2rem;
+}
+
+.contact h1 {
+  color: var(--color-primary);
+}
+
+form input,
+textarea {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(101, 96, 80, 0.059);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  display: block;
+  text-align: left;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--color-dark);
+}
+
+input {
+  width: 250px;
+  margin: 10px 0 30px 0;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px auto;
+}
+
+textarea:focus {
+  outline: none !important;
+  border: 1px solid var(--color-accent);
+}
+
+
+form input:focus {
+  outline: none !important;
+  border: 1px solid var(--color-accent);
+}
+
+.submitBtn {
+  appearance: none;
+  outline: 0;
+  background-color: var(--color-primary);
+  border: 0;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  color: white;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.submitBtn:hover {
+  background-color: var(--color-accent);
+  color: var(--color-dark)
+}
