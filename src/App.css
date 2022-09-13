@@ -102,6 +102,20 @@ iframe {
   gap: 20px;
 }
 
+.pics-container {
+  background:#212529;
+  padding: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.grid-img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+}
+
 footer {
   color: rgb(206, 206, 206);
   font-size: 0.8rem;
