@@ -175,7 +175,7 @@ form input:focus {
 .submitBtn {
   appearance: none;
   outline: 0;
-  background-color: var(--color-primary);
+  background-color: rgb(26, 26, 26);
   border: 0;
   padding: 10px 15px;
   margin-bottom: 15px;
@@ -186,6 +186,6 @@ form input:focus {
 }
 
 .submitBtn:hover {
-  background-color: var(--color-accent);
-  color: var(--color-dark)
+  background-color: purple;
+  color: white;
 }
