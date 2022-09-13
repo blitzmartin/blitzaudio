@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {data} from "../data"
+import { ListGroup } from "react-bootstrap";
+import { data } from "../data";
 
 export default function PortfolioItem() {
   return (
@@ -16,8 +17,12 @@ export default function PortfolioItem() {
               <Card.Subtitle className="mb-2 text-muted">
                 {work.subtitle}
               </Card.Subtitle>
-              <Card.Text>Directed by: {work.director}</Card.Text>
-              <Card.Text>Analytics: {work.analytics} views</Card.Text>
+              <Card.Text>
+                <p>Directed by: {work.director}</p>
+                <p>Analytics: {work.analytics} views</p>
+                <p>Agency: {work.agency}</p>
+                <p>Awards: {work.awards}</p>
+              </Card.Text>
             </Card.Body>
           </div>
         </div>
