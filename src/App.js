@@ -34,8 +34,8 @@ function App() {
                   <Nav.Link href="/about">ABOUT</Nav.Link>
                   <Nav.Link href="/services">SERVICES</Nav.Link>
                   <Nav.Link href="/works">WORKS</Nav.Link>
-                  <Nav.Link href="/pictures">PICTURES</Nav.Link>
                   <Nav.Link href="/artist">ARTIST</Nav.Link>
+                  <Nav.Link href="/pictures">PICTURES</Nav.Link>
                   <Nav.Link href="/contact">CONTACT</Nav.Link>
                 </Nav>
               </Navbar.Collapse>

@@ -89,6 +89,19 @@
   align-items: center;
 }
 
+iframe {
+  width: 500px;
+  height: 280px;
+}
+
+.artist-container {
+  background:#212529;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 footer {
   color: rgb(206, 206, 206);
   font-size: 0.8rem;
