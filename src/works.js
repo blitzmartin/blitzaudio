@@ -243,15 +243,6 @@ export const data = [
     awards: "/"
 },
 {
-    videoID: "pw7uIPRGBIw",
-    title: "Malike Ayane - Nostalgico Presente (live)",
-    subtitle: "Music, audio post-production, mix and master",
-    director: "/",
-    analytics: "/",
-    agency: "/",
-    awards: "/"
-},
-{
     videoID: "VMuUgTw3NaM",
     title: "30 Anni (2016)",
     subtitle: "Music, audio post-production, mix and master",

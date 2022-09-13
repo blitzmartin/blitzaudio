@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ListGroup } from "react-bootstrap";
-import { data } from "../data";
+import { data } from "../works";
 
 export default function PortfolioItem() {
   return (
