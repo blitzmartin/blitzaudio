@@ -1,6 +1,6 @@
 import { send } from "emailjs-com";
 import React, { useState } from "react";
-import { Link, Routes, Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Contact() {
 
