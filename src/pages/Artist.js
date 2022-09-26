@@ -17,7 +17,7 @@ export default function Artist() {
           <div className="artist-container">
             {data.map((artist) => (
               <div key={artist.videoID}>
-                <iframe
+                <iframe title={artist.videoID}
                   src={`https://www.youtube.com/embed/${artist.videoID}`}
                 />
               </div>

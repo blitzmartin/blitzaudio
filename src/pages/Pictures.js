@@ -10,7 +10,7 @@ export default function Pictures(){
              <div className="pics-container">
                {data.map((pic) => (
                  <div key={pic.name}>
-                   <img className='grid-img'
+                   <img alt={pic.name} className='grid-img'
                      src={`./images/liz/${pic.name}`}
                    />
                  </div>

@@ -8,7 +8,7 @@ export default function PortfolioItem() {
       {data.map((work) => (
         <div className="portfolio-item" key={work.videoID}>
           <div>
-            <iframe src={`https://www.youtube.com/embed/${work.videoID}`} />
+            <iframe title={work.videoID} src={`https://www.youtube.com/embed/${work.videoID}`} />
           </div>
           <div>
             <Card.Body style={{ textAlign: "right" }}>
